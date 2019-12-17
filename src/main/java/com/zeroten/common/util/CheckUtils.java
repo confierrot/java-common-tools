@@ -1,4 +1,4 @@
-package com.zeroten.javales;
+package com.zeroten.common.util;
 
 import java.util.Arrays;
 
