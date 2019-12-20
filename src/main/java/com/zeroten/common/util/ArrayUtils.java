@@ -2,6 +2,9 @@ package com.zeroten.common.util;
 
 public class ArrayUtils {
     public static int[] sort(int[] arr) {
+	if (arr == null) {
+	    return null;
+	}
 
         for (int i = 0; i < arr.length; i++) {
             int tmp;
